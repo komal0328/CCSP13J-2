@@ -1,0 +1,81 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  justify-items: center;
+}
+
+.hero {
+  font-size: 90px;
+  margin: 3px;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHBY_gKtCEFm3cZBSGFny-0i_Hkq2YZoM4vw&s");
+  color: transparent;
+  background-clip: text;
+  animation: image 7s linear infinite;
+}
+
+img {
+  margin: 7px;
+  box-shadow: 10px 10px 4px;
+}
+
+.logo {
+  width: 50px;
+}
+
+.container > p {
+  color: blueviolet;
+}
+
+p + h1 {
+  color: chartreuse;
+}
+
+p ~ h1 {
+  color: rgb(228, 114, 21);
+}
+
+.search {
+  margin: 50px;
+  width: 500px;
+  height: 200px;
+  background-color: aqua;
+  position: relative;
+}
+
+.search label {
+  top: 6px;
+  left: 4px;
+  position: absolute;
+}
+
+.search input {
+  height: 30px;
+  top: 10px;
+  left: 30px;
+}
+
+input:focus + label {
+  font-size: 10px;
+  top: 0;
+  left: 0;
+}
+
+li:nth-child(2n) {
+  background-color: rgb(182, 207, 232);
+}
+
+li:nth-child(2n + 1) {
+  background-color: cornflowerblue;
+}
+
+button:hover {
+  background-color: pink;
+}
+
+input:checked {
+  outline: 2px solid green;
+}
